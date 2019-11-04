@@ -7,6 +7,7 @@ In this Demo we will create a testing environment for kafka multi-broker cluster
 # What do you need to follow?
 - Create 3 EC2 t3a.medium instances using Amazon Linux 2 AMI and attach an elastic IP for each instance
 - Launch the instances in the same VPC with the default security group
+
 Note: You can skip the following step if you are using the default security group
 - Allow these ports in security group for zookeeper (2181,2888,3888) and default port 9092 for kafka communications
 
